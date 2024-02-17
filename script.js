@@ -1,4 +1,4 @@
-function stringChop(str, length) {
+function chunkString(str, length) {
   // your code here
 	if (str === null) {
 		return [];
