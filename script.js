@@ -6,7 +6,7 @@ function stringChop(str, length) {
 
 	const result = [];
 	for (let i = 0; i < str.length; i++) {
-		result.puch(str.substring(i, i + length));
+		result.push(str.substring(i, i + length));
 		i += length-1;
 	}
 	return result;
@@ -18,4 +18,4 @@ console.log(chunkString("abc", 5));
 // Do not change the code below
 const str = prompt("Enter String.");
 const size = prompt("Enter Chunk Size.");
-alert(stringChop(str, size));
+alert(stringChop(str, length));
