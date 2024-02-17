@@ -7,7 +7,7 @@ function stringChop(str, length) {
 	const result = [];
 	for (let i = 0; i < str.length; i++) {
 		result.push(str.substring(i, i + length));
-		i += length-1;
+		i += length - 1;
 	}
 	return result;
 }
